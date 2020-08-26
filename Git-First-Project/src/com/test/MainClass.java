@@ -2,7 +2,7 @@ package com.test;
 
 public class MainClass {
 	public static void main(String args[]) {
-		String fullname=getFullName("Nasir","Khan");
+		String fullname=getFullName("Nasir","Khan PG");
 		System.out.println("Full Name "+fullname);
 	}
 
