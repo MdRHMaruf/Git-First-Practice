@@ -18,6 +18,9 @@ public class MainClass {
 		p.setSecondName("Maruf");
 		
 		System.out.println(p.getFirstName()+" "+p.getSecondName());
+		
+		String secondconfig="Second Configue";
+		System.out.println("secondconfig "+secondconfig);
 	}
 
 	private static int getTotalAmount(int i, int j) {
@@ -30,8 +33,6 @@ public class MainClass {
 		return string+" "+string2;
 	}
 	
-	
-
 	
 	
 	
