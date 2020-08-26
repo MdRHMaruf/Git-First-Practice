@@ -1,10 +1,12 @@
 package com.test;
 
 public class MainClass {
-	Person p = new Person();
+	static Person p = new Person();
 	
 	public static void main(String args[]) {
+		p.setFirstName("Md RH");
+		p.setSecondName("Maruf");
 		
-		System.out.println("Ok");
+		System.out.println(p.getFirstName()+" "+p.getSecondName());
 	}
 }
