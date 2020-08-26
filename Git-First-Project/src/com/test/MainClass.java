@@ -6,7 +6,7 @@ public class MainClass {
 	public static void main(String args[]) {
 		String fullname=getFullName("Nasir","Khan","PG");
 		
-		int getTotalAmount=getTotalAmount(10,20);
+		int getTotalAmount=getTotal(10,20);
 		
 		String BranchInfo="Nasir Branch";
 		
@@ -26,7 +26,7 @@ public class MainClass {
 		System.out.println("secondconfig "+secondconfig);
 	}
 
-	private static int getTotalAmount(int i, int j) {
+	private static int getTotal(int i, int j) {
 		// TODO Auto-generated method stub
 		return i+j;
 	}
