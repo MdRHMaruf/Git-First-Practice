@@ -8,7 +8,7 @@ public class MainClass {
 		
 		int getTotalAmount=getTotalAmount(10,20);
 		
-		String BranchInfo="";
+		String BranchInfo="Nasir Branch";
 		
 		System.out.println("Branch Info"+fullname);
 		
