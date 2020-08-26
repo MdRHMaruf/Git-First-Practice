@@ -1,6 +1,8 @@
 package com.test;
 
 public class MainClass {
+
+	static Person p = new Person();
 	public static void main(String args[]) {
 		String fullname=getFullName("Nasir","Khan PG");
 		
@@ -11,6 +13,11 @@ public class MainClass {
 		System.out.println("Branch Info"+fullname);
 		
 		System.out.println("Full Name "+fullname);
+		
+		p.setFirstName("Md RH");
+		p.setSecondName("Maruf");
+		
+		System.out.println(p.getFirstName()+" "+p.getSecondName());
 	}
 
 	private static int getTotalAmount(int i, int j) {
@@ -22,6 +29,10 @@ public class MainClass {
 		// TODO Auto-generated method stub
 		return string+" "+string2;
 	}
+	
+	
+
+	
 	
 	
 }
