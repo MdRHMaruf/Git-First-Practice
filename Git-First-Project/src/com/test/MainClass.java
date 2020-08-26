@@ -4,7 +4,7 @@ public class MainClass {
 
 	static Person p = new Person();
 	public static void main(String args[]) {
-		String fullname=getFullName("Nasir","Khan PG");
+		String fullname=getFullName("Nasir","Khan","PG");
 		
 		int getTotalAmount=getTotal(10,20);
 		
@@ -13,6 +13,9 @@ public class MainClass {
 		System.out.println("Branch Info"+fullname);
 		
 		System.out.println("Full Name "+fullname);
+		
+		String name=name();
+		System.out.println("Name "+name);
 		
 		p.setFirstName("Md RH");
 		p.setSecondName("Maruf");
@@ -28,9 +31,13 @@ public class MainClass {
 		return i+j;
 	}
 
-	private static String getFullName(String string, String string2) {
+	private static String name() {
+		return "Nasir Uddin";
+		
+	}
+	private static String getFullName(String string, String string2,String title) {
 		// TODO Auto-generated method stub
-		return string+" "+string2;
+		return string+" "+string2+" "+title;
 	}
 	
 	
