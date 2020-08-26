@@ -6,6 +6,10 @@ public class MainClass {
 		
 		int getTotalAmount=getTotalAmount(10,20);
 		
+		String BranchInfo="";
+		
+		System.out.println("Branch Info"+fullname);
+		
 		System.out.println("Full Name "+fullname);
 	}
 
